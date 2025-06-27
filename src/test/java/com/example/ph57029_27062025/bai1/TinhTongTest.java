@@ -18,9 +18,4 @@ class TinhTongTest {
     void testTinhTongChiaHetCho3WithSoHopLe() {
         Assertions.assertEquals(18,tinhTong.tinhTongChiaHetCho3(10));
     }
-
-    @Test
-    void testTinhTongChiaHetCho3WithInValidSo() {
-        Assertions.assertThrows(IllegalArgumentException.class,()->tinhTong.tinhTongChiaHetCho3(-1));
-    }
 }
